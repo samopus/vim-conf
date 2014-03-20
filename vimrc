@@ -116,3 +116,5 @@ nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 "set hidden
 
+" NERDTree toggle
+nmap §§ :NERDTreeToggle<CR>
