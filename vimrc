@@ -118,3 +118,11 @@ nnoremap <S-Tab> :bprevious<CR>
 
 " NERDTree toggle
 nmap §§ :NERDTreeToggle<CR>
+
+" Solarized
+"set background=dark
+"colorscheme solarized
+
+" Taglist
+let mapleader=","
+map <Leader>§ :Tlist<CR>
