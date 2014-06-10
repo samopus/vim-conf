@@ -126,3 +126,7 @@ nmap §§ :NERDTreeToggle<CR>
 " Taglist
 let mapleader=","
 map <Leader>§ :Tlist<CR>
+let Tlist_Close_On_Select=1
+let Tlist_Show_One_File=1
+let Tlist_Sort_Type="name"
+let Tlist_Use_Right_Window=1
