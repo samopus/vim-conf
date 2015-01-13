@@ -7,6 +7,7 @@
 filetype off 
 call pathogen#incubate()
 call pathogen#helptags()
+execute pathogen#infect()
 
 " Set filetype stuff to on
 filetype on
