@@ -21,9 +21,9 @@ set expandtab
 set autoindent
 
 " Compatibility with Eclipse Devs
-set shiftwidth=8
-set softtabstop=8
-set noexpandtab
+" set shiftwidth=8
+" set softtabstop=8
+" set noexpandtab
 
 
 " set the search scan to wrap lines
