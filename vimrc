@@ -3,6 +3,32 @@
 "
 " base taken from internet
 
+" Plugin manager
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-git'
+Plug 'othree/html5.vim'
+Plug 'leshill/vim-json'
+Plug 'tpope/vim-markdown'
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'vim-scripts/indentpython.vim', { 'for': 'python' }
+Plug 'tpope/vim-sleuth'
+Plug 'flowtype/vim-flow', { 'for': 'javascript' }
+Plug 'tweekmonster/django-plus.vim'
+Plug 'derekwyatt/vim-scala'
+Plug 'vim-scripts/taglist.vim'
+
+call plug#end()
+
 " Get pathogen up and running
 filetype off 
 call pathogen#incubate()
