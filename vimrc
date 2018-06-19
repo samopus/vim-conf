@@ -144,7 +144,8 @@ set nocursorcolumn
 "
 "syntax on
 "filetype plugin indent on
-color twilight
+"color twilight
+color darcula
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 "set hidden
