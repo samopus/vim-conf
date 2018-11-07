@@ -26,6 +26,7 @@ Plug 'flowtype/vim-flow', { 'for': 'javascript' }
 Plug 'tweekmonster/django-plus.vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'vim-scripts/taglist.vim'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
